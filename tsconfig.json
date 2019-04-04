@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@tools-component/ngx-header": [
+        "dist/tools-component/ngx-header"
+      ],
+      "@tools-component/ngx-header/*": [
+        "dist/tools-component/ngx-header/*"
+      ]
+    }
   }
 }
